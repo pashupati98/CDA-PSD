@@ -1,9 +1,9 @@
 a=imread('20. SF-25_ HA - Picture1.jpg');
-%imshow(a)
-%b=rgb2gray(a);
-%figure, imshow(b) 
+imshow(a)
+b=rgb2gray(a);
+figure, imshow(b) 
 c = a>90;
-%figure, imshow(c)
+figure, imshow(c)
 p=size(a);
 
 count=0;
