@@ -16,6 +16,6 @@ for i=1:p(1,1)
         end
     end
 end
-total_pixels =1200*1600;
+total_pixels =p(1,1)*p(1,2);
 crack_density = count/total_pixels;
 
