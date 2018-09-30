@@ -1,13 +1,15 @@
 a=imread('e22.png');
-%imshow(a)
+imshow(a)
 b=rgb2gray(a);
-% figure, imshow(b) 
+figure, imshow(b) 
 c = b>100;
 figure, imshow(c)
+p = size(c);
 
 count=0;
-for i=1:1200
-    for j=1:1600
+
+for i=1:p(1,1)
+    for j=1:p(1,2)
         d=c(i,j);
         if d==0
             count=count+1;
