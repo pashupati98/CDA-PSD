@@ -5,7 +5,8 @@ figure, imshow(b)
 c = b>100;
 figure, imshow(c)
 p = size(c);
-//
+
+
 count=0;
 
 for i=1:p(1,1)
